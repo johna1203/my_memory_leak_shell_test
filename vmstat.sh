@@ -1,2 +1,2 @@
 #!/bin/sh
-vmstat -n 5 200 >> /home/pi/yasuki-client/logs/vmstat.dat
+vmstat -n 5 200 >> /tmp/vmstat.dat
