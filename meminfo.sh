@@ -5,4 +5,4 @@ do
     grep 'Inactive:' /proc/meminfo > /tmp/s2.txt
     paste /tmp/s1.txt /tmp/s2.txt
     sleep 5
-done >> /tmp/meminfo.dat
+done > /tmp/meminfo.dat
